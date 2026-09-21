@@ -24,5 +24,51 @@ body{
     color: black;
     border: 1px solid black;
     font-size: 30px;
+    font-family: arial;
     padding-left: 160px;
+}
+
+.CVNav{
+    border-bottom: 1px solid;
+    padding-top: 60px;
+}
+
+.Home{
+    background-color: black;
+
+}
+
+.Head{
+    border: 1px solid lightgray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: q0px;
+}
+
+.Port{
+    color: Orange;
+    font-size: 20px;
+    padding-left: 15px;
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-right: 15px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 8px 10px;
+    border: 1px solid purple;
+    border-radius: 12px;
+}
+
+nav a:hover{
+    color: red;
+    border-color: orange;
+    box-shadow: 0px 0px 47px 14px rgba(255, 0, 0, 0.65); /* box-shadow tagen från https://elementor.com/tools/box-shadow-generator/?utm_term=&lang=&elem=CjwKCAjwq8PVBhAKEiwA2i3SHbfx0-qqpdV3PWAdBhaZcDgoICqIYvn35dpz-QhRjoFttPvFxwASzhoCFqAQAvD_BwE */
 }
