@@ -34,12 +34,13 @@ body{
 }
 
 .Home{
-    background-color: black;
+    background-color: 	#1B1212;
 
 }
 
 .Head{
     border: 1px solid lightgray;
+    background-color: black;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -71,4 +72,43 @@ nav a:hover{
     color: red;
     border-color: orange;
     box-shadow: 0px 0px 47px 14px rgba(255, 0, 0, 0.65); /* box-shadow tagen från https://elementor.com/tools/box-shadow-generator/?utm_term=&lang=&elem=CjwKCAjwq8PVBhAKEiwA2i3SHbfx0-qqpdV3PWAdBhaZcDgoICqIYvn35dpz-QhRjoFttPvFxwASzhoCFqAQAvD_BwE */
+}
+
+main{
+    width: 90%;
+    margin: auto;
+}
+
+.above{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 60px 20px;
+    min-height: 400px;
+}
+
+strong{
+    font-size: 50px;
+    color: white;
+}
+
+.info2,
+.info{
+    color: #d0d0d0;
+    letter-spacing: 0.5px;
+    max-width: 700px;
+    margin: 0;
+    width: 60%;
+}
+
+.info:hover,
+.info2:hover{
+    border: 1px solid orange;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 12px 3.5px orange;
+}
+
+#fang{
+    transform: translate(825px, -425px);
 }
