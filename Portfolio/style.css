@@ -105,7 +105,7 @@ strong{
     letter-spacing: 0.5px;
     max-width: 700px;
     margin: 20px;
-    padding: 20px;
+    padding: 25px;
 }
 
 .info:hover,
@@ -226,4 +226,11 @@ article h7{
    display: flex;
    justify-content: center;
    padding-top: 50px;
+}
+
+.about{
+    color: Orange;
+    font-size: 35px;
+    padding-left: 15px;
+    margin-left: 350px;
 }
