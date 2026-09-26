@@ -4,30 +4,6 @@ body{
     margin: 0;
 }
 
-.image{
-    border-radius: 45px;
-}
-
-.sidebar{
-    width: 250px;
-    background-color: whitesmoke;
-    border-right: 1px solid black;
-    min-height: 100vh;
-    padding: 32px 20px;
-    position: fixed;
-    display: flex;
-}
-
-.cl{
-    display: flex;
-    justify-content: center;
-    color: black;
-    border: 1px solid black;
-    font-size: 30px;
-    font-family: arial;
-    padding-left: 160px;
-}
-
 .CVNav{
     border-bottom: 1px solid;
     padding-top: 60px;
@@ -94,6 +70,7 @@ main{
     gap: 70px;
     padding: 20px 10px;
     min-height: 400px;
+    margin-top: 100px;
 }
 
 strong{
@@ -115,9 +92,8 @@ strong{
 .info:hover,
 .info2:hover{
     border: 1px solid orange;
-    padding: 10px;
     border-radius: 20px;
-    box-shadow: 0px 0px 12px 3.5px orange;
+    box-shadow: 0px 0px 12px 3.5px purple;
 }
 
 #fang{
@@ -181,7 +157,7 @@ h2, h3, h4{
 }
 
 .infocards article:hover{
-    box-shadow: 0px 0px 12px 3.5px orange;
+    box-shadow: 0px 0px 12px 3.5px purple;
     background-color: rgb(34, 30, 30);
     transform: scale(1.10);
     
@@ -219,7 +195,7 @@ footer{
 }
 
 .Projects article:hover{
-    box-shadow: 0px 0px 12px 3.5px orange;
+    box-shadow: 0px 0px 12px 3.5px purple;
     background-color: rgb(34, 30, 30);
     transform: scale(1.10);
 }
@@ -302,5 +278,69 @@ h2{
 .Project2, #mig, strong{
     border: none;
     background-color: #1B1212;
-    color
+}
+
+#mig{
+    margin-top: 40px;
+}
+
+.om{
+    color: orange;
+    padding-top: 20px;
+}
+
+.Project2 article:hover{
+    box-shadow: 0px 0px 12px 3.5px purple;
+    background-color: rgb(34, 30, 30);
+    transform: scale(1.10);
+}
+
+}
+
+#mig{
+    margin-top: 40px;
+}
+
+
+.om{
+    color: orange;
+    padding-top: 20px;
+}
+
+.Project2 article:hover{
+    box-shadow: 0px 0px 12px 3.5px purple;
+    background-color: rgb(34, 30, 30);
+    transform: scale(1.10);
+}
+
+#mig:hover{
+    box-shadow: none;
+    transform: none;
+}
+
+.image{
+    border-radius: 45px;
+}
+
+.sidebar{
+    width: 250px;
+    background-color: #ddd;
+    min-height: 100vh;
+    color: white;
+    border-right: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 112px;
+    bottom: 0;
+}
+
+.cl{
+    display: flex;
+    justify-content: center;
+    color: black;
+    border: 1px solid black;
+    font-size: 30px;
+    font-family: arial;
+    padding-left: 160px;
 }
