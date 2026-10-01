@@ -392,45 +392,120 @@ h2{
     box-shadow: 0px 0px 22px 6.5px purple;
 }
 
-@media (max-width: 600px) {
+.space{
+    margin-top: 100px;
+    color: orange;
+    font-size: 30px;
+}
 
-    .Head {
+@media (max-width: 768px){
+
+    .Head{
+        padding: 5px;
+    }
+
+    .Port{
+        font-size: 28px;
+        margin-left: 5px;
+    }
+
+    nav{
+        gap: 5px;
+    }
+
+    nav a{
+        padding: 7px;
+        font-size: 14px;
+    }
+
+    .above{
+        flex-direction: row;
+        align-items: center;
+        text-align: left;
+        gap: 30px;
+    }
+
+    #fang{
+        width: 220px;
+        height: 280px;
+        margin-top: 20px;
+    }
+
+    .info,
+    .info2{
+        margin: 10px;
+        padding: 15px;
+    }
+
+    .button{
+        margin-left: 0;
+    }
+
+    .infocards{
+        grid-template-columns: 1fr;
+    }
+
+    .Projects{
+        grid-template-columns: 1fr;
+    }
+
+    .Projects article img{
+        margin-left: 0;
+    }
+
+    .sidebar2{
+        width: 180px;
+    }
+
+    .Project2{
+        margin-left: 180px;
+        margin-right: 20px;
+        padding: 20px;
+    }
+
+    .forms{
+        width: 70%;
+    }
+}
+
+@media (max-width: 600px){
+    .Head{
         position: static;
         flex-direction: column;
         padding: 15px;
     }
 
-    .Port {
+    .Port{
         font-size: 30px;
         margin: 5px;
         padding: 0;
     }
 
-    nav {
-        flex-wrap: wrap;
-        justify-content: center;
+    nav{
+        flex-direction: column;
+        gap: 8px;
     }
 
-    nav a {
+    nav a{
         font-size: 12px;
         padding: 7px 8px;
     }
 
-    main {
+    main{
         width: 95%;
     }
 
-    .above {
+    .above{
         margin-top: 30px;
         padding: 20px 5px;
     }
 
-    .namn {
+    .namn{
         font-size: 35px;
     }
 
     .info,
-    .info2 {
+    .info2{
         margin: 10px 0;
         padding: 15px;
     }
@@ -485,7 +560,7 @@ h2{
     }
 
     #skola{
-        margin-left: 25px;
+        margin-left: 150px;
     }
 
     .Project2{
