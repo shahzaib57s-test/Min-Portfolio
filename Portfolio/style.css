@@ -58,6 +58,10 @@ nav a:hover{
     box-shadow: 0px 0px 47px 14px rgba(255, 0, 0, 0.65); /* box shadow tagen från https://elementor.com/tools/box-shadow-generator/?utm_term=&lang=&elem=CjwKCAjwq8PVBhAKEiwA2i3SHbfx0-qqpdV3PWAdBhaZcDgoICqIYvn35dpz-QhRjoFttPvFxwASzhoCFqAQAvD_BwE */
 }
 
+nav a:active{
+    background-color: red;
+}
+
 main{
     width: 90%;
     margin: auto;
@@ -116,11 +120,12 @@ strong{
     margin-left: 200px;
 }
 
-.button:hover,
-.button:active{
+.button:hover{
     box-shadow: 0px 0px 12px 3.5px crimson;
-    background-color: rgb(34, 30, 30);
     transform: scale(1);
+}
+.button:active{
+    background-color: red;
 }
 
 .infocards{
@@ -167,7 +172,6 @@ footer{
     padding-top: 20px;
     margin-top: 20px;
     border-top: 1px solid #ddd;
-    text-align: center;
     color: white;
 }
 
